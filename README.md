@@ -11,6 +11,8 @@ This is a capacitive touch sensing circuit based on the principle of capacitive 
 *ver B*<br>
 ![CVD verB](sch/CVD%20ver%20B.jpg)
 ## 參考資料
+- Microchip AN1478 mTouch Sensing Solution Acquisition Methods Capacitive Voltage Divider
+
 ## 樣機展示
 *ver A*  
 [![Prototype verA](https://img.youtube.com/vi/0q65-RAXcD0/0.jpg)](https://youtu.be/0q65-RAXcD0)
