@@ -11,10 +11,11 @@ This is a touch sensing circuit based on the principle of capacitive voltage div
 4. 低頻噪聲抑制：CVD 波形的兩次 ADC 取樣會因為差分方法而互相抵消低頻噪聲，同時放大有效信號。
 
 ## 工作原理
-1. 預充電電容：將兩個電容分別充電至相反的電壓。第一次操作稱為「取樣 A」，第二次操作(第4)稱為「取樣 B」。如圖 4 所示：取樣 A：外部感應器放電至 VSS，內部感應器充電至 VDD。取樣 B：外部感應器充電至 VDD，內部感應器放電至 VSS。
-2. 連接電容並穩定電荷：將兩個電容並聯，使電荷達到穩定狀態。隨著外部電容增大，初始電荷也隨之增加（公式 2）。內部電容不變，因此其電荷保持不變。此步驟如圖 5 所示。
-3. ADC 轉換：最終電壓由外部電容大小與內部電容大小的關係決定（公式 3）。
-4. 反轉預充電壓並重複操作：再次執行上述操作，但這次將預充電壓反轉。兩次結果的差值作為當前感應器的讀數，這就是為什麼這種掃描技術通常被稱為「差分 CVD」。差分 CVD 檢測方法的完整波形如圖 2 所示。
+1. 如圖4，內部電容為CHOLD
+2. 預充電電容：將兩個電容分別充電至相反的電壓。第一次操作稱為「取樣 A」，第二次操作(第4)稱為「取樣 B」。如圖 4 所示：取樣 A：外部感應器放電至 VSS，內部感應器充電至 VDD。取樣 B：外部感應器充電至 VDD，內部感應器放電至 VSS。
+3. 連接電容並穩定電荷：將兩個電容並聯，使電荷達到穩定狀態。隨著外部電容增大，初始電荷也隨之增加（公式 2）。內部電容不變，因此其電荷保持不變。此步驟如圖 5 所示。
+4. ADC 轉換：最終電壓由外部電容大小與內部電容大小的關係決定（公式 3）。
+5. 反轉預充電壓並重複操作：再次執行上述操作，但這次將預充電壓反轉。兩次結果的差值作為當前感應器的讀數，這就是為什麼這種掃描技術通常被稱為「差分 CVD」。差分 CVD 檢測方法的完整波形如圖 2 所示。
 
 *圖2 CVD差分波形*  
 ![圖2 CVD差分波形](picture/%E5%9C%96%E4%BA%8C_%E5%B7%AE%E5%88%86CVD%E6%B3%A2%E5%BD%A2.jpg)
@@ -43,3 +44,8 @@ This is a touch sensing circuit based on the principle of capacitive voltage div
 
 *ver B*  
 [![Prototype verA](https://img.youtube.com/vi/ckIhD4DM1XI/0.jpg)](https://youtu.be/ckIhD4DM1XI)
+***
+本文件中引用的部分資料來自 Microchip Technology Inc. 的應用參考文件 AN1478 "mTouch Sensing Solution Acquisition Methods Capacitive Voltage Divider"。這些內容的版權歸 Microchip Technology Inc. 所有。根據該公司的版權規定，本資料僅供參考使用，非商業用途。若需進一步使用或商業應用，請參考 Microchip Technology Inc. 官方網站上的版權聲明或聯繫該公司以獲取授權。
+
+Some of the content in this document is sourced from Microchip Technology Inc.'s application note AN1478 "mTouch Sensing Solution Acquisition Methods Capacitive Voltage Divider". All rights to these materials are reserved by Microchip Technology Inc. This material is provided for reference only and non-commercial use. For further use or commercial applications, please refer to the copyright notice on Microchip Technology Inc.'s official website or contact the company for permissions.
+***
