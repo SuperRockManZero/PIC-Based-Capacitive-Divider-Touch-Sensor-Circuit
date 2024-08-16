@@ -1,6 +1,5 @@
 # PIC based capacitive divider touch sensor circuit
-This is a touch sensing circuit based on the principle of capacitive voltage division. It employs differential measurement techniques, which effectively reduce interference from environmental noise, thereby enhancing detection accuracy. When a finger touches or approaches the sensing area, the capacitance of the sensor changes, causing a variation in the voltage division ratio. The PIC microcontroller, using its built-in ADC, detects and processes these changes to accurately identify touch actions.
-
+This is a touch sensing circuit based on the principle of capacitive voltage division. It employs differential measurement techniques, which effectively reduce interference from environmental noise, thereby enhancing detection accuracy. When a finger touches or approaches the sensing area, the capacitance of the sensor changes, causing a variation in the voltage division ratio. The PIC microcontroller, using its built-in ADC, detects and processes these changes to accurately identify touch actions.  
 這是一個依據電容分壓原理的觸控感應電路，採用了差分測量技術，可以有效減少環境噪聲對觸控偵測的干擾，提升感應準確度。
 當手指接觸或靠近感應區域時，感應器的電容值會改變，導致電壓分壓比的變動。PIC 微處理器以內建的 ADC 檢測並處理這些變化，進而精確識別觸控動作。
 
@@ -45,7 +44,6 @@ This is a touch sensing circuit based on the principle of capacitive voltage div
 *ver B*  
 [![Prototype verA](https://img.youtube.com/vi/ckIhD4DM1XI/0.jpg)](https://youtu.be/ckIhD4DM1XI)
 ***
-本文件中引用的部分資料來自 Microchip Technology Inc. 的應用參考文件 AN1478 "mTouch Sensing Solution Acquisition Methods Capacitive Voltage Divider"。這些內容的版權歸 Microchip Technology Inc. 所有。根據該公司的版權規定，本資料僅供參考使用，非商業用途。若需進一步使用或商業應用，請參考 Microchip Technology Inc. 官方網站上的版權聲明或聯繫該公司以獲取授權。
-
+本文件中引用的部分資料來自 Microchip Technology Inc. 的應用參考文件 AN1478 "mTouch Sensing Solution Acquisition Methods Capacitive Voltage Divider"。這些內容的版權歸 Microchip Technology Inc. 所有。根據該公司的版權規定，本資料僅供參考使用，非商業用途。若需進一步使用或商業應用，請參考 Microchip Technology Inc. 官方網站上的版權聲明或聯繫該公司以獲取授權。  
 Some of the content in this document is sourced from Microchip Technology Inc.'s application note AN1478 "mTouch Sensing Solution Acquisition Methods Capacitive Voltage Divider". All rights to these materials are reserved by Microchip Technology Inc. This material is provided for reference only and non-commercial use. For further use or commercial applications, please refer to the copyright notice on Microchip Technology Inc.'s official website or contact the company for permissions.
 ***
