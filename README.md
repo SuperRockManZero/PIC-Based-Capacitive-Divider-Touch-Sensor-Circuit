@@ -22,7 +22,7 @@ This is a touch sensing circuit based on the principle of capacitive voltage div
 
 ## Prototype 樣機展示
 
-*ver A*
+*ver A*  
 [![Prototype verA](https://img.youtube.com/vi/0q65-RAXcD0/0.jpg)](https://youtu.be/0q65-RAXcD0)
 
 *ver B*  
