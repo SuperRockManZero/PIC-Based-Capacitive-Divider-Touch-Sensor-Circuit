@@ -10,7 +10,16 @@ This is a touch sensing circuit based on the principle of capacitive voltage div
 4. 低頻噪聲抑制：CVD 波形的兩次 ADC 取樣會因為差分方法而互相抵消低頻噪聲，同時放大有效信號。
 
 ## 工作原理
-請參考 Microchip AN1478 mTouch™ Sensing Solution Acquisition Methods Capacitive Voltage Divider
+- 依照電容定義：  
+  $$C=\frac{Q}{V}\quad \longrightarrow \quad Q=CV$$  
+  > $`C`$是電容量  
+  > $`Q`$是電容所儲存的電荷量  
+  > $`V`$是電容兩端電位差
+- 由上式可以歸納得出：
+  - 當電容電壓固定不變，電容量越大則電荷就越多。
+  - 當電荷固定不變，電容量越小則電容電壓越小。
+ 
+詳細工作原理請參考 Microchip AN1478 mTouch™ Sensing Solution Acquisition Methods Capacitive Voltage Divider
 ![CVD flowchart](picture/CVD_flowchart1.jpg)
 
 ## hex File
